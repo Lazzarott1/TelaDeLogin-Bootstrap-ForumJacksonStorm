@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(200, 200, 200);
+    color: rgb(151, 255, 32);
+    background-image: url("assets/backgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: large;
+}
+img {
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(68, 68, 68);
+    background-color:rgb(160, 160, 160) ;
+    padding: 20px;
+    border:2px solid rgb(88, 88, 88);
+    border-radius: 20px; 
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+footer p{
+    font-family:'Segoe UI', Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bloco {
+  display: flex;          
+  gap: 200px;              
+}
+.noticia {
+    width: 810px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(208, 255, 0);
+}
+.blocotexto {
+  display: flex;          
+}
+.blocotexto2 {
+  display: flex;          
+               
+}
+.texto {
+    width: 570px;
+  padding: 10px;
+  background-color: rgb(207, 206, 206);
+  color: black;
+  height: 400px;
+
+}
+.bloconoticia {
+    display: flex;  
+    gap: 200px;
+}
+.titulo {
+    height: 380px;
+    width: 200px;
+  padding: 10px;
+    color: black;
+    padding: 20px;
+    background-color: rgb(207, 206, 206);
+}
