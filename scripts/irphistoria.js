@@ -1,7 +1,5 @@
+const botao = document.getElementById("btn1");
 
-document.getElementById("form").onclick = (e) => {
-    e.preventDefault();
-
-
-
-window.location.href = "historia.html";
+botao.addEventListener("click", function() {   
+    window.location.href = "historia.html";
+});
