@@ -14,6 +14,7 @@ document.getElementById("form-login").onsubmit = (e) => {
 
     if (senhaSalva === senha && usuarioSalvo === usuario) {
         mensagem.innerHTML = "<div class='sucesso'><p>Login com sucesso!</p></div>";
+        window.location.href = "home.html";
     } else {
         mensagem.innerHTML = "<div class='erro'><p>Dados incorretos!</p></div>";
     }
