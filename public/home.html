@@ -4,37 +4,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <style>
+        body {
+            background-image: url('../assets/img/foto_thumb.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+    </style>
 </head>
 
-<body class="bg-light">
-
-    <div class="bg-image"
-     style="background-image: url('assets/cars-3-jackson-storm-8k-5120x2880.jpg'); height: vh-100 ; background-size: cover; background-position: center;">
-
+<body>
 
     <header>
-        <nav class="p-5">
-            <h1 class="text-center p-4" style="background-color: #212136; border-color: #40c8fa; color: #FFFFFF; max-width: 400px; margin: auto; margin-top: 100px;">Home</h1>
-        </nav>
+        <h1 class="text-center py-3" style="background-color: #212136; color: #00AEEF;">Jackson Storm - Fórum</h1>
     </header>
-    <main class="d-flex justify-content-center align-items-center vh-100">
 
-        <div class="card shadow-lg p-3" 
-        style="background-color: #212136; border-color: #40c8fa; color: #FFFFFF; max-width: 400px; margin: auto; margin-top: 100px;">
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 pe-lg-3">
+                    <div class="card shadow-sm mb-3" style="background-color: #1C1C1E; border-color: #008fef;">
+                        <div class="card-body">
+                            <h5 class="text-info">⚡ Características</h5>
+                            <ul class="small text-white mb-0">
+                                <li>Número 20</li>
+                                <li>Velocidade extrema</li>
+                                <li>Design aerodinâmico</li>
+                                <li>Tecnologia avançada</li>
+                            </ul>
+                        </div>
+                    </div>
 
-            <h2 class="text-center mb-3" id="titulo">Aperte este botão para conhecer a história de Jackson Storm!</h2>
+                    <div class="card shadow-sm" style="background-color: #1C1C1E; border-color: #008fef;">
+                        <div class="card-body">
+                            <h5 class="text-info">🎨 Aparência</h5>
+                            <p class="small text-white mb-0">Pintura preta com detalhes em azul elétrico. Design aerodinâmico moderno.</p>
+                        </div>
+                    </div>
+                </div>
 
-            <button class="btn btn-primary w-100" id="btn1">Ver Página</button>
+                <div class="col-lg-6">
+                    <div class="card shadow-lg" style="background-color: #1C1C1E; border-color: #008fef; color: #00AEEF;">
+                        <div class="card-body">
+                            <h2 class="text-center mb-4">Jackson Storm</h2>
+                            <p class="text-center mb-4">O principal antagonista do filme Carros 3. Representa a nova geração de corredores com tecnologia avançada e velocidade extrema.</p>
+                            <button class="btn btn-primary w-100" id="btn1">Ver Página Completa</button>
+                        </div>
+                    </div>
+                </div>
 
-        
-</div>
+                <div class="col-lg-3 ps-lg-3">
+                    <div class="card shadow-sm mb-3" style="background-color: #1C1C1E; border-color: #008fef;">
+                        <div class="card-body">
+                            <h5 class="text-info">📍 Origem</h5>
+                            <p class="small text-white mb-0">Parte de uma nova geração de carros altamente treinados em simuladores modernos.</p>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="background-color: #1C1C1E; border-color: #008fef;">
+                        <div class="card-body">
+                            <h5 class="text-info">🏆 Personalidade</h5>
+                            <ul class="small text-white mb-0">
+                                <li>Arrogante</li>
+                                <li>Confiante</li>
+                                <li>Calculista</li>
+                                <li>Competitivo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
-    <footer>
+
+    <footer style="background-color: #212136; color: #00AEEF;" class="text-center py-2">
+        <small>Fórum dedicado a Jackson Storm © 2026</small>
     </footer>
-    <script src="scripts/irphistoria.js"></script>
+
+    <script src="../scripts/script_historia.js"></script>
 </body>
+
+</html>
 
 
